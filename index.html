@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- https://icons.getbootstrap.com/ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <title>Gestor de chistes</title>
+</head>
+
+<body>
+    <!-- 1920 * 1200 -->
+    <header>
+        <h1>Bienvenido a tu gestor de chistes de confianza</h1>
+        <figure>
+            <img src="img/señor-contento.jpg" alt="Que contentooo eeentoyyyyy">
+            <figcaption>¡Viva la vida!</figcaption>
+        </figure>
+    </header>
+
+    <main>
+        <div class="principal">
+            <div class="botonesGenerales">
+                <button title="Nuevo chiste" class="botonGeneral" id="botonNuevoChiste">
+                    <i class="bi bi-plus-circle-fill"></i>
+                </button>
+                <button title="Exportar datos" class="botonGeneral" id="botonExportarChistes">
+                    <i class="bi bi-arrow-up-circle-fill"></i>
+                </button>
+                <button title="Importar datos" class="botonGeneral" id="botonImportarChistes">
+                    <i class="bi bi-arrow-down-circle-fill"></i>
+                </button>
+                <button title="Borrar todo" class="botonGeneral" id="botonBorrarTodos">
+                    <i class="bi bi-shield-fill-x"></i>
+
+                </button>
+            </div>
+            <div class="chistes">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Título</th>
+                            <th>Chiste</th>
+                            <th>Categoría</th>
+                            <th>Valoración</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <!-- Sección importar chistes -->
+    <section>
+        <div class="modalImportarChistes ocultarImportarChistes">
+            <div class="contenidoImportarChistes">
+                <h4 title="Solo aceptamos archivos .json">Desde aquí puedes importar tu copia de chistes en JSON</h4>
+                <figure class="imagenImportarChistes">
+                    <img src="img/señor-hacha.jpg" alt="Jeison el malo">
+                </figure>
+                <form id="formImportarChistes" action="">
+                    <label for="inputArchivo">Elige el archivo <span>.json</span></label>
+                    <input type="file" id="inputArchivo" name="inputArchivo" accept=".json">
+                </form>
+            </div>
+            <div id="cerrarImportarChistes">Cerrar ventana</div>
+        </div>
+    </section>
+
+    <!-- Sección exportar chistes -->
+    <section>
+        <div class="modalExportar ocultarExportarChistes">
+            <div class="contenidoModalExportar">
+                <h4 class="tituloContenidoModalExportar">Desde aquí puedes exportar tu lista de chistes</h4>
+                <!-- 
+                    https://pixabay.com/es/photos/embarcacion-carga-embarcaci%C3%B3n-5215108/
+                    https://pixabay.com/es/service/license/
+                 -->
+                <figure class="fotoModalExportar">
+                    <img src="img/barco-exportando.jpg" alt="Barco exportador">
+                </figure>
+                <a class="enviarExportarChistes">¡Haz click aquí y pasarán cosas!</a>
+                <div class="botonCerrarExportarChistes">Cerrar ventana</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección crear chiste -->
+    <section>
+        <div class="modalCrear ocultarCrearChiste">
+            <h4 title="Si es malo no se guarda...">Copia el chiste de tu humorista de cabecera</h4>
+            <form id="formCrearChiste" action="">
+                <label for="titulo">Título del chiste</label>
+                <input type="text" name="tituloChiste" id="tituloChiste">
+
+                <label for="textoChiste">El texto del chiste</label>
+                <textarea name="textoChiste" id="textoChiste" cols="80" rows="10"></textarea>
+
+                <label for="categoriaChiste">Elige la categoría del chistaco</label>
+                <select name="categoriaChiste" id="categoriaChiste">
+                    <option value="negro">Will Smith</option>
+                    <option value="verdes">Benny Hill</option>
+                    <option value="infatiles">Disney</option>
+                    <option value="carceleros">Cadena perpetua</option>
+                    <option value="naufragos">Wilson</option>
+                    <option value="vascos">Aupa Bilbao</option>
+                    <option value="andaluces">Fiesta, siesta y ole</option>
+                    <option value="lepe">Lepe</option>
+                    <option value="nudistas">Adan y Eva</option>
+                    <option value="gore">Ketchup</option>
+                </select>
+
+                <label for="valoracionChiste">Puntación del chiste</label>
+                <input type="range" name="valoracionChiste" id="valoracionChiste" min="1" max="10" value="5">
+                <p><span class="valorRange">5</span>/10</p>
+
+                <div class="botonCrearChiste">Guardar chiste</div>
+                <div class="botonCerrarCrearChiste">Cerrar ventana</div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Sección editar chistes -->
+    <section>
+        <div class="modalEditar ocultarModificarChiste">
+            <h4 title="Tienes dedos de hipopótamo y tienes que editarlo...">Editar chistaco</h4>
+            <form id="formEditarChiste" action="">
+                <label for="titulo">Título del chiste</label>
+                <input type="text" name="tituloChisteModificar" id="tituloChisteModificar">
+
+                <label for="textoChiste">El texto del chiste</label>
+                <textarea name="textoChisteModificar" id="textoChisteModificar" cols="80" rows="10"></textarea>
+
+                <label for="categoriaChiste">Elige la categoría del chistaco</label>
+                <select name="categoriaChisteModificar" id="categoriaChisteModificar">
+                    <option value="negro">Will Smith</option>
+                    <option value="verdes">Benny Hill</option>
+                    <option value="infatiles">Disney</option>
+                    <option value="carceleros">Cadena perpetua</option>
+                    <option value="naufragos">Wilson</option>
+                    <option value="vascos">Aupa Bilbao</option>
+                    <option value="andaluces">Fiesta, siesta y ole</option>
+                    <option value="lepe">Lepe</option>
+                    <option value="nudistas">Adan y Eva</option>
+                    <option value="gore">Ketchup</option>
+                </select>
+
+                <label for="valoracionChiste">Puntación del chiste</label>
+                <input type="range" name="valoracionChisteEditar" id="valoracionChisteEditar" min="1" max="10" value="5">
+                <p><span class="valorRangeEditar">5</span>/10</p>
+
+                <div class="botonModificarChiste">Guardar chiste</div>
+                <div class="botonCerrarModificarChiste">Cerrar ventana</div>
+            </form>
+        </div>
+    </section>
+
+    <script src="js/referencias.js"></script>
+    <script src="js/funciones.js"></script>
+    <script src="js/modales.js"></script>
+</body>
+
+</html>

@@ -1,4 +1,4 @@
-* Gestor de chistes en Javascript
+# Gestor de chistes en Javascript
 
 Aplicación en navegador para gestión de chistes.
 
@@ -10,12 +10,12 @@ Individualmente permite borrarlos y editarlos,
 
 Esta diseñado para pantallas de 1920 x 1200.
 
-* Tecnologías usadas
+# Tecnologías usadas
 
 1. HTML
 2. CSS
 3. JavaScript
 
-* Como usarlo
+# Como usarlo
 
 Arrancar el index.html y utilizar los botones para añadir o importar el JSON chistesPruebas.json

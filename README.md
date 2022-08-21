@@ -8,7 +8,7 @@ Permite importar un archivo JSON, exportarlo, añadir nuevos chistes y borrarlos
 
 Individualmente permite borrarlos y editarlos,
 
-Esta diseñado para pantallas de 1920 x 1200.
+Voy a ponerlo responsive, desde teléfono hasta pantalla de sobremesa.
 
 # Tecnologías usadas
 

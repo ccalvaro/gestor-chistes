@@ -19,3 +19,8 @@ Voy a ponerlo responsive, desde teléfono hasta pantalla de sobremesa.
 # Como usarlo
 
 Arrancar el index.html y utilizar los botones para añadir o importar el JSON chistesPruebas.json
+
+Mientras termino el RWD para poder utilizarlo hay que cambiarle el nombre a:
+
+main-old.css => main.css
+main.css => main-old.css

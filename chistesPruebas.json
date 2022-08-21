@@ -2,140 +2,140 @@
     "1": {
         "titulo": "Gusanos manzaneros",
         "chiste": "¿Qué le dice un gusano a otro? Voy a dar una vuelta a la manzana.",
-        "categoria": "infantiles",
+        "categoria": "Infantiles",
         "valoracion": 3,
         "id": 1
     },
     "2": {
         "titulo": "WIFI",
         "chiste": "- ¿Tienes WiFi? - Sí - ¿Y cuál es la clave? - Tener dinero y pagarlo.",
-        "categoria": "gore",
+        "categoria": "Gore",
         "valoracion": 3,
         "id": 2
     },
     "3": {
         "titulo": "Cafe pelligroso",
         "chiste": "¿Cuál es el café más peligroso del mundo? El ex-preso",
-        "categoria": "carceleros",
+        "categoria": "Carceleros",
         "valoracion": 4,
         "id": 3
     },
     "4": {
         "titulo": "Naufragos",
         "chiste": "- A mí me gustaría vivir en una isla desierta. - A mí también. - ¡Ya empezamos a llenarla, eh!",
-        "categoria": "naufragos",
+        "categoria": "Naufragos",
         "valoracion": 4,
         "id": 4
     },
     "5": {
         "titulo": "No discutas",
         "chiste": "Resulta que hay un tipo en la playa que va saludando a todo el mundo. Uno que está por allí le pregunta: - Oye, ¿tú cómo lo haces para llevarte bien con todo el mundo?. Y el otro le contesta: - Mi truco es no discutir nunca. - Pero eso sólo no será, ¿no? - Pues no será…",
-        "categoria": "naufragos",
+        "categoria": "Naufragos",
         "valoracion": 6,
         "id": 5
     },
     "6": {
         "titulo": "Sangre",
         "chiste": "-¡Rápido, necesitamos sangre! -Yo soy 0 positivo. -Pues muy mal, aquí se viene a animar.",
-        "categoria": "gore",
+        "categoria": "Gore",
         "valoracion": 8,
         "id": 6
     },
     "7": {
         "titulo": "La motosierra",
         "chiste": "Un vasco entra en una tienda con una motosierra eléctrica:- Oiga, usted me dijo que esta motosierra que he comprado cortaba cien árboles a la hora. La he probado, y como mucho corta cincuenta. - Pues no se preocupe que ahora la probamos... Arranca la motosierra el dependiente, y al oírla dice Patxi - Aibalaostia tú, ¿y ese ruido?",
-        "categoria": "gore",
+        "categoria": "Gore",
         "valoracion": "6",
         "id": 7
     },
     "8": {
         "titulo": "Infinito",
         "chiste": "Dos vascos a la salida de un examen de matemáticas. - Oye, Iñaki, ¿a ti que te dió el segundo problema? - ¿A mí? Infinito. - ¿Sólo?",
-        "categoria": "vascos",
+        "categoria": "Vascos",
         "valoracion": 8,
         "id": 8
     },
     "9": {
         "titulo": "Astronautas",
         "chiste": "-Aitor, ¿ves la Tierra? -¡Cómo no la voy a ver! - ¿Ves Euskadi? - Anda, pues claro! - ¿Ves el pueblo? Sí, lo veo - ¿Y el frontón? -También lo veo - ¡Saca pues!",
-        "categoria": "vascos",
+        "categoria": "Vascos",
         "valoracion": 4,
         "id": 9
     },
     "10": {
         "titulo": "El autobus",
         "chiste": "- Patxi, soy Iñaki. Oye, que ya he cogido el autobús. Llego a tu casa en 30 minutos. - Pero si se llega en 15 andando... - Ya, joder, pero pesa.",
-        "categoria": "vascos",
+        "categoria": "Vascos",
         "valoracion": 4,
         "id": 10
     },
     "11": {
         "titulo": "El Belén",
         "chiste": "Se encuentran dos bilbaínos por la calle y uno le dice al otro: - ¿De dónde vienes? - Pues nada, he ido a comprar 300 vacas, 500 bueyes, 400 ovejas y 30 toneladas de madera. Y el otro le dice:- ¡Sí que montas tú pronto el Belén este año!",
-        "categoria": "vascos",
+        "categoria": "Vascos",
         "valoracion": 4,
         "id": 11
     },
     "12": {
         "titulo": "Los patucos",
         "chiste": "Están tres bebes en la maternidad y empiezan a hablar: El primero dice: - Yo debo de ser un niño, tengo los patucos azules. El segundo se mira y dice: - Pues yo debo ser una niña, tengo los patucos rosas.  Y dice el tercero: - Entonces yo debo ser de Bilbao, porque tengo unos huevos tan grandes que no me veo los patucos.",
-        "categoria": "vascos",
+        "categoria": "Vascos",
         "valoracion": 4,
         "id": 12
     },
     "13": {
         "titulo": "Gonorrea",
         "chiste": "Dos vascos que se encuentran, y uno le dice a otro: - Oye Patxi, me han dicho que tu hija está con gonorrea. - A mi mientras sea vasco me da lo mismo como se llame.",
-        "categoria": "vascos",
+        "categoria": "Vascos",
         "valoracion": "7",
         "id": 13
     },
     "14": {
         "titulo": "El puro",
         "chiste": "Un niño de 7 años en la Maestranza de Sevilla, con un gorro de sevillano, y un uro de un metro. Y le dice otro espectador: ¡Oye chaval! ¿No te vas a marear con eso? - ¿Yo? El que se debe estar mareando es mi padre que debe estar buscando la entrada, el gorro y el puro.",
-        "categoria": "andaluces",
+        "categoria": "Andaluces",
         "valoracion": 4,
         "id": 14
     },
     "15": {
         "titulo": "Tablao flamenco",
         "chiste": "Esto son dos andaluces de Jaén hablando: - Me he liado con una sevillana y me ha llevado a ese sitio de bailar a zapatazos. - ¿Tablao flamenco? - No, no, habla español, raro, pero español.",
-        "categoria": "andaluces",
+        "categoria": "Andaluces",
         "valoracion": 4,
         "id": 15
     },
     "16": {
         "titulo": "Borrachos en Sevilla",
         "chiste": "Tres borrachos que llegan a la estación. «DIN DON DIN. El tren con destino a Sevilla, sale ahora mismo por la vía 4». Se ponen a correr pero el Jefe de estación ayuda a uno a subir, ayuda al otro, y cuando llega al tercero, el tren ha cogido ya velocidad, y no puede subirlo. - Lo siento, pero ya es tarde. -Pues más lo van a sentir ellos, que habían venido a despedirme.",
-        "categoria": "andaluces",
+        "categoria": "Andaluces",
         "valoracion": 4,
         "id": 16
     },
     "17": {
         "titulo": "Cocinando pollo",
         "chiste": "Uno en un restaurante de Lepe, encantado con el pollo que le sirven, pide: - Oiga, ¿Cómo preparan el pollo? - Nada especial, sólo le decimos que va a morir…",
-        "categoria": "lepe",
+        "categoria": "Lepe",
         "valoracion": 4,
         "id": 17
     },
     "19": {
         "titulo": "Cazadores",
         "chiste": "Dos cazadores están en el bosque cuando uno de ellos se desmaya. No parece estar respirando y sus ojos están vidriosos. El otro hombre agarra el teléfono y llama al servicio de emergencias. Dice jadeando al operador: ¡Mi amigo está muerto! ¿Qué puedo hacer?. El operador con un tono de voz calmado y suave le responde: Tómelo con calma, puedo ayudar. Primero, vamos a asegurarnos que está muerto. Se hace un silencio, luego se escucha un disparo. De regreso al teléfono, el cazador dice: Y, ¿ahora qué?.",
-        "categoria": "negro",
+        "categoria": "Negro",
         "valoracion": "8",
         "id": 19
     },
     "20": {
         "titulo": "Caperucita y el lobo",
         "chiste": "- LOBO, ¿porque tienes esa frente tan sudada, los ojos tan ajustados y esos dientes tan apretados?  - ¡Coño Caperucita, déjame cagar tranquilo ya!",
-        "categoria": "verdes",
+        "categoria": "Verdes",
         "valoracion": "5",
         "id": 20
     },
     "21": {
         "titulo": "Dos Leperos en el bar",
         "chiste": "Oye, ¿sabes cómo se llaman los habitantes de Barcelona?  Coño, pues todos no.",
-        "categoria": "lepe",
+        "categoria": "Lepe",
         "valoracion": 7,
         "id": 21
     }

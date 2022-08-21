@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,8 +15,8 @@
 <body>
     <!-- HEADER  -->
     <header>
-        <h1>Bienvenido a tu gestor de chistes de confianza</h1>
-        <figure>
+        <h1>Tu gestor de chistes de confianza</h1>
+        <figure id="figuraPrincial">
             <img src="img/gangster.png" alt="Que contentooo eeentoyyyyy">
             <figcaption>¡Viva la vida!</figcaption>
         </figure>
@@ -37,12 +38,11 @@
                 </button>
                 <button title="Borrar todo" class="botonGeneral" id="botonBorrarTodos">
                     <i class="bi bi-shield-fill-x"></i>
-
                 </button>
             </div>
             <div class="chistes">
                 <table>
-                    <thead>
+                    <thead class="ocultaCabeceraTabla">
                         <tr>
                             <th>Título</th>
                             <th>Chiste</th>
@@ -157,7 +157,8 @@
                 </select>
 
                 <label for="valoracionChiste">Puntación del chiste</label>
-                <input type="range" name="valoracionChisteEditar" id="valoracionChisteEditar" min="1" max="10" value="5">
+                <input type="range" name="valoracionChisteEditar" id="valoracionChisteEditar" min="1" max="10"
+                    value="5">
                 <p><span class="valorRangeEditar">5</span>/10</p>
 
                 <div class="botonModificarChiste">Guardar chiste</div>

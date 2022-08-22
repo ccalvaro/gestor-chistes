@@ -22,5 +22,5 @@ Arrancar el index.html y utilizar los botones para añadir o importar el JSON ch
 
 Mientras termino el RWD para poder utilizarlo hay que cambiarle el nombre a:
 
-main-old.css => main.css
+main-old.css => main.css  
 main.css => main-old.css

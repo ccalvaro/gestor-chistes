@@ -1,0 +1,35 @@
+@media (min-width:768px) {
+    .chistes {
+        width: 100%;
+    }
+
+        table {
+            width: 90%;
+
+            color: white;
+            border-collapse: collapse;
+        }
+
+            .ocultaCabeceraTabla {
+                display: table-header-group;
+            }
+
+            .chistes tbody tr {
+                width: unset;
+                height: unset;
+                margin-bottom: unset;
+
+                display: table-row;
+            }
+
+                .chistes tbody tr td {
+                    width: unset;
+                    padding: 5px;
+                    text-align: center;
+                    border: 5px solid black;
+                }
+
+                .chistes tbody tr td:nth-child(1) {
+                    border-bottom: unset;
+                }
+}

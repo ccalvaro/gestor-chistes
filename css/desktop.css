@@ -1,5 +1,12 @@
 @media (min-width:900px) {
     /* MODALES */
+    /* MODAL IMPORTAR CHISTES DESDE JSON */
+
+            .imagenImportarChistes {
+                width: 25%;
+            }
+
+
     /* MODAL EXPORTAR CHISTES A ARCHIVO JSON */
 
             .fotoModalExportar {

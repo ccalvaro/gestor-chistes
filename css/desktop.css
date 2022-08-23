@@ -1,3 +1,17 @@
 @media (min-width:900px) {
+    /* MODALES */
+    /* MODAL EXPORTAR CHISTES A ARCHIVO JSON */
 
+            .fotoModalExportar {
+                width: 50%;
+            }
+}
+
+@media (min-width:1350px) {
+    /* MODALES */
+    /* MODAL EXPORTAR CHISTES A ARCHIVO JSON */
+
+            .fotoModalExportar {
+                width: 35%;
+            }
 }
